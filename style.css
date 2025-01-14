@@ -1,0 +1,42 @@
+/* Hero Section */
+.hero {
+    background-color: #ff6f61;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Product Cards */
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Cart Section */
+#cart-items {
+    margin-bottom: 20px;
+}
+
+#total-price {
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+}

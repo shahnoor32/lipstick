@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lipstick Collection</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lipstick World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Lipstick Shades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cart">Cart <span id="cart-count" class="badge badge-pill badge-danger">0</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center text-white">
+        <div class="container">
+            <h1>Find Your Perfect Lipstick Shade</h1>
+            <p>Explore our wide variety of shades for every occasion!</p>
+        </div>
+    </header>
+
+    <!-- Lipstick Products Section -->
+    <section id="products" class="container my-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/red passion.jpg" class="card-img-top" alt="Lipstick 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Passion</h5>
+                        <p class="card-text">A bold red for a classic look.</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Red Passion" data-price="20">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/pink glow.jpg" class="card-img-top" alt="Lipstick 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pink Glow</h5>
+                        <p class="card-text">A soft pink for a delicate touch.</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Pink Glow" data-price="18">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/nude delight.jpg" class="card-img-top" alt="Lipstick 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nude Delight</h5>
+                        <p class="card-text">A perfect nude for everyday wear.</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Nude Delight" data-price="15">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/Pink Champagne.jpg" class="card-img-top" alt="Lipstick 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Pink Champagne</h5>
+                        <p class="card-text">Perfect for an elegant, soft glow..</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Pink Champagne" data-price="15">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/Fuchsia Fantasy.jpg" class="card-img-top" alt="Lipstick 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Funchisca Fantasy</h5>
+                        <p class="card-text"> Bold, vibrant, striking..</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Funchisca Fantasy" data-price="19">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/Coral Craze.jpg" class="card-img-top" alt="Lipstick 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Coral Craze</h5>
+                        <p class="card-text">A vibrant coral shade for a fresh, summery look.</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Coral Craze" data-price="17">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/Crimson Kiss.jpg" class="card-img-top" alt="Lipstick 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Crimson Kiss</h5>
+                        <p class="card-text"> A deep, bold red for a classic, seductive look.</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Crimson Kiss" data-price="20">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/Candy Apple.jpg" class="card-img-top" alt="Lipstick 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Candy Apple</h5>
+                        <p class="card-text"> A sweet, glossy red with a playful, youthful finish.</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Candy Apple" data-price="18">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="assests/berry bliss.jpg" class="card-img-top" alt="Lipstick 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Berry Bliss</h5>
+                        <p class="card-text">A rich, deep berry hue for a bold and sophisticated look.</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Berry Bliss" data-price="16">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="container my-5">
+        <h2>Your Cart</h2>
+        <ul id="cart-items" class="list-group">
+            <!-- Cart items will be added here by JavaScript -->
+        </ul>
+        <div class="text-right">
+            <h3>Total: $<span id="total-price">0</span></h3>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Lipstick World. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
